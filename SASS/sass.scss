@@ -126,7 +126,7 @@ h2 {
 }
 
 .review {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(media/untamed.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../media/untamed.jpg);
     background-size: cover;
     background-position-x: center;
     display: inline-block;
@@ -140,7 +140,7 @@ h2 {
 
 .humor {
     display: inline-block;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(media/untamedRISA.png);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../media/untamedRISA.png);
     width: 400px;
     height: 600px;
     text-align: center;
@@ -153,7 +153,7 @@ h2 {
     height: 600px;
     display: inline-block;
     background-position-y: center;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(media/untamedDrawing.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../media/untamedDrawing.jpg);
     text-align: center;
     line-height: 5;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 82%);
@@ -262,14 +262,14 @@ h2 {
     font-weight: 550px;
 }
 
-.piziypachu {
+.imagenNosotros {
     display: flex;
     flex-direction: row;
     justify-content: center;
     justify-items: baseline;
 }
 
-.piziypachu_img {
+.imagenNosotros_img {
     padding: 20px;
 }
 
@@ -377,4 +377,4 @@ footer {
     }
 }
 
-@import "./node_modules/bootstrap/scss/bootstrap.scss"
+@import "../node_modules/bootstrap/scss/bootstrap.scss"
