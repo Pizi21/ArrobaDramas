@@ -447,6 +447,13 @@ h2, .h2 {
   }
 }
 
+@media screen and (max-width: 422px) {
+  #headerMenu {
+    margin-right: 25px;
+    word-spacing: 5px;
+  }
+}
+
 /* seccion HUMOR */
 #seccionHumor {
   margin-left: 10px;
